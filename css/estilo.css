@@ -65,3 +65,24 @@ footer {
         font-size: 1em;
     }
 }
+.navbar{
+  margin: 0;
+  padding: 0;
+  padding-left: 30%;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    margin-top: 100%;
+    margin-left: 220%;
+    padding-bottom: 0px;
+    background-color: #0f3d0f;
+    border-radius: 0px;
+    border-color: white;
+    min-width: 160px;
+}
+li{
+    display: inline;
+    float: left;
+}
