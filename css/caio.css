@@ -1,0 +1,40 @@
+.photo{
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 150px;
+
+}
+
+.direitos{
+    background-color: gray;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1360px;
+    height: 50px;
+    text-align: center;
+    
+    
+}
+.section-title{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.dom{
+    width: 1366px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
+.texto{
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-size: 1.3em;
+
+}
