@@ -7,7 +7,7 @@
 .photo{
     width: 300px;
     margin-left: 190px;
-    margin-top: 90px;
+    margin-top: 60px;
 
 
 }
@@ -15,7 +15,7 @@
 .direitos{
     background-color: #343a40;
     position: absolute;
-    top: 150%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1520px;
@@ -27,7 +27,7 @@
 }
 .section-title{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 2em;
@@ -42,7 +42,7 @@ header{
 }
 .texto{
     position: absolute;
-    top: 105%;
+    top: 120%;
     left: 60%;
     transform: translate(-50%,-50%);
     font-size: 1.3em;
