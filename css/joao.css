@@ -1,45 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f9fa;
     color: #333;
 }
-
 /* Cabeçalho */
 header {
     background: url('../img/dom.webp') no-repeat center center/cover;
     padding: 200px 0;
     text-align: center;
     color: white;
-
+    max-height:200px;
 }
-
-
-.img_aluno{
-    margin-top: 30px;
-    width: 250px;
-    margin-bottom: 30px;
-    margin-left: 60px;
-}
-
-
 /* Seções */
 section {
     padding: 60px 20px;
+    padding-left: 300px;
 }
-
 .section-title {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
 }
-
 /* Botões */
 .button {
     display: inline-block;
@@ -50,11 +38,9 @@ section {
     text-decoration: none;
     transition: background-color 0.3s;
 }
-
 .button:hover {
     background-color: #0056b3;
 }
-
 /* Rodapé */
 footer {
     text-align: center;
@@ -62,7 +48,6 @@ footer {
     background-color: #343a40;
     color: white;
 }
-
 /* Media Queries */
 @media (max-width: 768px) {
     header h1 {
@@ -73,26 +58,23 @@ footer {
         font-size: 1em;
     }
 }
-
 nav{
     display: flex;
-    gap: 30px;
     height: 100px;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 195px;
+    margin-top: 127px;   
 }
 nav>a{
+    font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 2em;
 }
-
 a:hover{
     color: black;
 }
-
 .home{
     border: 3px solid  white; 
 }
@@ -105,3 +87,31 @@ a:hover{
 .escola{
     border: 3px solid  white; 
 }
+.nomeAluno{
+    margin-left: 250px;
+    font-size: 18px;
+
+}
+.informacoes{
+    padding-top: 70px;
+    margin-left: 250px;
+    margin-right: 50px;
+    font-size: 27px;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+.img_aluno{
+    margin-top: -250px;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    padding-top: -200px;
+    
+}
+
+
+
+
+
+

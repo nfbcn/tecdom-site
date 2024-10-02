@@ -41,6 +41,7 @@ section {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
+    
 }
 
 .button:hover {
@@ -65,3 +66,4 @@ footer {
         font-size: 1em;
     }
 }
+
