@@ -17,6 +17,7 @@ header {
     padding: 200px 0;
     text-align: center;
     color: white;
+    width: 100%;
 
 }
 
@@ -47,6 +48,14 @@ section {
     background-color: #0056b3;
 }
 
+.Pgfoto{
+ margin: 50px;
+ padding: 25px;
+ height: 400px;
+ width: 350px;
+}
+
+
 /* Rodapé */
 footer {
     text-align: center;
@@ -64,4 +73,13 @@ footer {
     header p {
         font-size: 1em;
     }
+}
+
+.informacoespg{
+    padding-top: 80px;
+    margin-left: 450px;
+    margin-right: 500px;
+    font-size: 32px;
+    text-align: justify;
+
 }
