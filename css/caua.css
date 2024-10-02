@@ -20,9 +20,29 @@ header {
 
 }
 
+
 .nomeAluno{
-    padding-left: 700px;
+    margin-left: 600px;
+    font-size: 32px;
+
 }
+
+.informacoes{
+    padding-top: 80px;
+    margin-left: 450px;
+    margin-right: 500px;
+    font-size: 32px;
+    text-align: justify;
+}
+
+
+.foto_mudar{
+    width: 300px;
+    margin-left: 300px;
+    margin-top: -230px;
+    margin-bottom: 100px;
+}
+
 
 /* Seções */
 section {
