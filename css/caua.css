@@ -22,9 +22,9 @@ header {
 
 /*Caixa de navegação*/
 nav{
-    align-items: flex-end;
     display: flex;
-    padding-left: 520px;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Texto*/
@@ -74,11 +74,11 @@ a:hover{
     text-align: justify;
 }
 
-
+/*Foto de Cauã*/
 .foto_mudar{
     width: 300px;
     margin-left: 300px;
-    margin-top: -230px;
+    margin-top: -235px;
     margin-bottom: 100px;
 }
 
