@@ -17,6 +17,7 @@ header {
     padding: 200px 0;
     text-align: center;
     color: white;
+    max-height:200px;
 
 }
 
@@ -24,6 +25,7 @@ header {
 /* Seções */
 section {
     padding: 60px 20px;
+    font-size: 10px;
 }
 
 .section-title {
@@ -67,3 +69,37 @@ footer {
     }
 }
 
+nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 127px;   
+}
+nav>a{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+a:hover{
+    color: black;
+}
+.home{
+    border: 3px solid  white; 
+}
+.alunos{
+    border: 3px solid  white; 
+}
+.prof{
+    border: 3px solid  white; 
+}
+.escola{
+    border: 3px solid  white; 
+}
+
+h2{
+    font-size: 10px;
+    text-align: center;
+}
