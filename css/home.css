@@ -12,7 +12,7 @@ body {
 }
 /* Cabeçalho */
 header {
-    background: url('../img/dom.webp') no-repeat center center/cover;
+    background: url('../img/dom1.webp') no-repeat center center/cover;
     padding: 200px 0;
     text-align: center;
     color: white;
@@ -21,7 +21,7 @@ header {
 /* Seções */
 section {
     padding: 60px 20px;
-    padding-left: 300px;
+    
 }
 .section-title {
     font-size: 2em;
@@ -87,28 +87,7 @@ a:hover{
 .escola{
     border: 3px solid  white; 
 }
-.nomeAluno{
-    margin-left: 250px;
-    font-size: 18px;
 
-}
-.informacoes{
-    padding-top: 70px;
-    margin-left: 250px;
-    margin-right: 50px;
-    font-size: 27px;
-    text-align: justify;
-    font-size: 18px;
-
-}
-.img_aluno{
-    margin-top: -250px;
-    width: 250px;
-    margin-bottom: 30px;
-    margin-left: 200px;
-    padding-top: -200px;
-    
-}
 
 h2{
     font-size: 14px;
