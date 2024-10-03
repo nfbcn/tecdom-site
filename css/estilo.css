@@ -9,6 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f9fa;
     color: #333;
+
 }
 
 /* Cabeçalho */
@@ -76,10 +77,15 @@ footer {
 }
 
 .informacoespg{
-    padding-top: 80px;
+   
     margin-left: 450px;
     margin-right: 500px;
     font-size: 32px;
-    text-align: justify;
+    
+   margin-top: -150px;
+}
 
+.FotoDom{
+  width: 1500px;
+ height: 350px;
 }
