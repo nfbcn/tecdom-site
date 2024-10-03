@@ -20,6 +20,47 @@ header {
 
 }
 
+nav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height:80px;
+    justify-content: center;
+    transition: color 0.25s;
+    margin-top: 134px;
+    margin-bottom: 300px;
+    width: 1935px;
+    margin-left: -280px;
+}
+
+a{
+    position: relative;
+    cursor: pointer;
+    color: #efefee;
+    font-size: 28px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid white;
+  }
+
+  a::after{
+    position:absolute;
+    content: "";
+    inset: 0;
+    scale: 1 0;
+    transition: 0.45s;
+    border-radius: 10px;
+  }
+
+  a:hover{
+    color: rgb(184, 26, 26);
+    }
+    
+    a:hover::after{
+      scale: 1 1;
+    }
 
 /* Seções */
 section {
@@ -27,7 +68,7 @@ section {
 }
 
 .section-title {
-    font-size: 2em;
+    font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
 }

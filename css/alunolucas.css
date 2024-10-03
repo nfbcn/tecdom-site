@@ -17,17 +17,78 @@ header {
     padding: 200px 0;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
+    margin-top: -20px;
 
 }
+
+nav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height:80px;
+    justify-content: center;
+    transition: color 0.25s;
+    margin-top: 134px;
+    margin-bottom: 300px;
+    width: 1935px;
+    margin-left: -280px;
+
+}
+
+a{
+    position: relative;
+    cursor: pointer;
+    color: #efefee;
+    font-size: 28px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid white;
+  }
+
+  a::after{
+    position:absolute;
+    content: "";
+    inset: 0;
+    scale: 1 0;
+    transition: 0.45s;
+    border-radius: 10px;
+  }
+
+  a:hover{
+    color: rgb(184, 26, 26);
+    }
+    
+    a:hover::after{
+      scale: 1 1;
+    }
 
 
 /* Seções */
 section {
-    padding: 60px 20px;
+    padding: 80px 40px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: -90px;
+}
+
+.nome{
+    margin-bottom: 30px;
+    margin-left: 500px;
 }
 
 .imagem{
-    margin: 10%;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.texto{
+    padding: 20px 10px;
 }
 
 .section-title {
