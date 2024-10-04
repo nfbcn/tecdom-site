@@ -76,20 +76,14 @@ section {
 
 .nome{
     margin-bottom: 30px;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
-.imagem{
-    width: 100px;
-    margin-top: -50px;
-    margin-left: 300px;
-    margin-right: 20px;
-    float: left;
-}
+
 
 .link{
-    margin-left: 600px;
-    margin-top: -40px;
+    margin-left: 610px;
+    margin-top: -50px;
 }
 
 .section-title {
