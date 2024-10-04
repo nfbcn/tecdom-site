@@ -17,13 +17,14 @@
 .direitos{
     background-color: #343a40;
     position: absolute;
-    top: 170%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1520px;
     height: 50px;
     text-align: center;
     padding: 20px 0;
+    font-family: 'Arial',sans-serif;
     
     
 }
@@ -33,6 +34,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 2em;
+    font-family: 'Helvetica', sans-serif;
 }
 header{
    background: url('../img/dom.webp') no-repeat center center/cover;
@@ -48,6 +50,8 @@ header{
     left: 60%;
     transform: translate(-50%,-50%);
     font-size: 1.3em;
+    font-family: 'Helvetica', sans-serif;
+    text-align: justify;
 
 
 }
