@@ -39,6 +39,28 @@ a:hover{
     color: black;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.imagemETexto{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.textBox{
+
+}
+
 .home{
     padding: 30px;
     padding-inline: 70px;
@@ -61,25 +83,23 @@ a:hover{
 }
 
 .nomeAluno{
-    margin-left: 600px;
+    margin-left: 330px;
     font-size: 32px;
 
 }
 
 .informacoes{
     padding-top: 80px;
-    margin-left: 450px;
-    margin-right: 500px;
-    font-size: 32px;
+    font-size: 23px;
     text-align: justify;
 }
 
 /*Foto de Cauã*/
 .foto_mudar{
-    width: 300px;
-    margin-left: 300px;
-    margin-top: -235px;
-    margin-bottom: 100px;
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
 
@@ -114,7 +134,8 @@ section {
 /* Rodapé */
 footer {
     text-align: center;
-    padding: 20px 0;
+    margin-top: 300px;
+    padding: 20px;
     background-color: #343a40;
     color: white;
 }
