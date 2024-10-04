@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* Reset básico */
 * {
     margin: 0;
@@ -68,21 +70,55 @@ footer {
 .navbar{
   margin: 0;
   padding: 0;
-  padding-left: 30%;
 }
+ 
 a{
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    margin-top: 100%;
-    margin-left: 220%;
-    padding-bottom: 0px;
-    background-color: #0f3d0f;
-    border-radius: 0px;
-    border-color: white;
-    min-width: 160px;
+    color: white;
+     text-decoration: none;
+     padding: 15px;
+     float: left;
+     border: 1px solid white;
+     font-family:"bebas neue", sans-serif ;
+     font-size: x-large;
+     padding-left: 40px;
+     padding-right: 40px;
+     transition: 1s;
+    
+  }
+a:hover{
+    background-color: darkgreen;
 }
-li{
-    display: inline;
-    float: left;
+.barra{
+  display: flow-root;
+    align-items: center;
+    text-align: center; 
+    position: relative;
+    margin-top: -65px;
+    padding-left: 28%;
+     
+  }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.meunome{
+    text-align: center;
+    margin-top: -5%;
+}
+.minhadesc{
+    text-align: center;
+    font-family:"Inter", sans-serif ;
+    width: 620px;
+    margin-left: -15%;
+    margin-right: 26%;
+}
+.imagenstext{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+.imagemsandro{
+    margin-left: 8%;
 }
