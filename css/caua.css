@@ -39,12 +39,6 @@ a:hover{
     color: black;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .main{
     display: flex;
     justify-content: center;
@@ -85,7 +79,6 @@ a:hover{
 .nomeAluno{
     margin-left: 330px;
     font-size: 32px;
-
 }
 
 .informacoes{
