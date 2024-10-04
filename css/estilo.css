@@ -1,4 +1,6 @@
 /* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,20 +19,17 @@ header {
     padding: 200px 0;
     text-align: center;
     color: white;
-
 }
-
-
-/* Seções */
-section {
-    padding: 60px 20px;
-}
-
-.section-title {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
-}
+    section {
+      padding: 60px 20px;
+  }
+  
+  .section-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  
 
 /* Botões */
 .button {
@@ -65,33 +64,71 @@ footer {
         font-size: 1em;
     }
 }
-ul {
-   
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.nave{
     text-decoration: none;
+
+      align-items: center;
    
-  }
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+   
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
+    
+  
   }
   a{
-    padding-left: 30%;
+    color: white;
+     text-decoration: none;
+     padding: 8px;
+     float: left;
+     border: 1px solid white;
+     font-family:"bebas neue", sans-serif ;
+     font-size: x-large;
+     padding-left: 40px;
+     padding-right: 40px;
+    transition: 1s;
   }
-  
+  .barra{
+  display: flow-root;
+    align-items: center;
+    text-align: center; 
+    position: relative;
+    margin-top: -49px;
+    padding-left: 30%;
+     
+  }
+  a:hover{
+    background-color: darkgreen;
+  }
+  .imagens_text{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+  }
+  .texto{
+    width: 300px;
+    margin-left: -400px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: 'inter', serif;
+  }
+  .nome{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'inter', serif;
+  }
+  .imagens{
+    padding-bottom: 10px;
+  }
+  .text_home{
+    display: flex;
+    align-items: center;
+    width: 150px;
+  }
