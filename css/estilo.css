@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: black;
+}
+
+/* Cabeçalho */
+header {
+    background: url('../img/dom.webp') no-repeat center center/cover;
+    padding: 200px 0;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: black;
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 110px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a:hover{
+    color: black;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+}
+
+.home{
+    padding: 30px;
+    border: 3px solid  white; 
+    padding: inline 70px; ;
+}
+
+.alunos{
+    padding: 30px;
+    border: 3px solid  white; 
+    padding-inline: 70px;
+}
+
+.prof{
+    padding: 30px;
+    padding-inline: 45px;
+    border: 3px solid  white; 
+}
+
+.escola{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
