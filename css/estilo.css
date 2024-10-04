@@ -25,14 +25,13 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 40px;
     height:80px;
     justify-content: center;
     transition: color 0.25s;
     margin-top: 134px;
     margin-bottom: 300px;
     width: 1935px;
-    margin-left: -280px;
+    margin-left: -270px;
 }
 
 a{

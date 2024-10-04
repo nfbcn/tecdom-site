@@ -38,17 +38,17 @@ nav{
 
 }
 
-a{
+.navbar{
     position: relative;
     cursor: pointer;
-    color: #efefee;
+    color: #efe;
     font-size: 28px;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border: 2px solid white;
   }
 
-  a::after{
+.navbar::after{
     position:absolute;
     content: "";
     inset: 0;
@@ -57,11 +57,11 @@ a{
     border-radius: 10px;
   }
 
-  a:hover{
+.navbar:hover{
     color: rgb(184, 26, 26);
     }
     
-    a:hover::after{
+.navbar:hover::after{
       scale: 1 1;
     }
 
@@ -87,8 +87,9 @@ section {
     float: left;
 }
 
-.texto{
-    padding: 20px 10px;
+.link{
+    margin-left: 600px;
+    margin-top: -40px;
 }
 
 .section-title {
