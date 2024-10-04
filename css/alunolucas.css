@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: url('../img/dom.webp') no-repeat center center/cover;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -20px;
+
+}
+
+nav{
+    mask-repeat: no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:80px;
+    justify-content: center;
+    transition: color 0.25s;
+    margin-top: 134px;
+    margin-bottom: 300px;
+    width: 1700px;
+    margin-left: -150px;
+
+}
+
+a{
+    position: relative;
+    cursor: pointer;
+    color: #efefee;
+    font-size: 28px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid white;
+  }
+
+  a::after{
+    position:absolute;
+    content: "";
+    inset: 0;
+    scale: 1 0;
+    transition: 0.45s;
+    border-radius: 10px;
+  }
+
+  a:hover{
+    color: rgb(184, 26, 26);
+    }
+    
+    a:hover::after{
+      scale: 1 1;
+    }
+
+
+/* Seções */
+section {
+    padding: 80px 40px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: -90px;
+}
+
+.nome{
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+
+.imagem{
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.texto{
+    padding: 20px 10px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Botões */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+}
