@@ -1,11 +1,145 @@
-img{
-    margin: -10px;
-    margin-right: -300px;
-    margin-left: -100px;
-    padding-left: 220px;
-    padding-right: 220px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.Pgfoto{
-    margin: 10px;
-    height: 260px;
+
+body {
+    font-family: 'Mont-seraf', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: url('../img/dom.webp') no-repeat center center/cover;
+    padding-top: 400px;
+    color: white;
+}
+
+/*Caixa de navegação*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Texto*/
+nav>a{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+a:hover{
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.imagemETexto{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.textBox{
+
+}
+
+.home{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
+.alunos{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
+.prof{
+    padding: 30px;
+    padding-inline: 45px;
+    border: 3px solid  white; 
+}
+.escola{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
+
+.nomeAluno{
+    margin-left: 330px;
+    font-size: 32px;
+}
+
+.informacoes{
+    padding-top: 80px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+/*Foto de Cauã*/
+.foto_mudar{
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+/* Seções */
+section {
+    padding: 60px 20px;
+    padding-left: 300px;
+}
+
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Botões */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
 }

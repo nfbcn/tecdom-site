@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* Reset básico */
 * {
     margin: 0;
@@ -9,85 +11,32 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f9fa;
     color: #333;
-
 }
 
 /* Cabeçalho */
 header {
     background: url('../img/dom.webp') no-repeat center center/cover;
-    padding: 200px 0;
-    text-align: center;
+    padding-top: 400px;
     color: white;
-    width: 100%;
-
 }
 
-
-/* Seções */
-section {
-    padding: 60px 20px;
+/*Caixa de navegação*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.section-title {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* Botões */
-.button {
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+/*Texto*/
+nav>a{
+    font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-.Pgfoto{
- margin: 50px;
- padding: 25px;
- height: 400px;
- width: 350px;
-}
-
-
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #343a40;
     color: white;
+    font-size: 2em;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-    
-    header p {
-        font-size: 1em;
-    }
-}
-
-.informacoespg{
-   
-    margin-left: 450px;
-    margin-right: 500px;
-    font-size: 32px;
-    
-   margin-top: -150px;
-}
-
-.FotoDom{
-  width: 1500px;
- height: 350px;
+a:hover{
+    color: black;
 }
 
 .home{
@@ -111,8 +60,62 @@ footer {
     border: 3px solid  white; 
 }
 
-.nomeAluno{
-    margin-left: 600px;
-    font-size: 32px;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.textBox{
+    font-size: 24px;
+    margin: 150px auto;
+    width: 50%;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-inline: 330px;
+}
+
+/* Botões */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
 }
