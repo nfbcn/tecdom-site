@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* Reset básico */
 * {
     margin: 0;
@@ -44,17 +46,53 @@ a:hover{
     min-height: 100vh;
 }
 
-/* Seções */
-section {
-    padding: 80px 40px;
-    justify-content: space-between;
-    display: flex;
-    margin-left: -90px;
+.imagemETexto{
+    margin: 150px auto;
+    width: 70%;
 }
 
-.nome{
-    margin-bottom: 30px;
-    margin-left: 600px;
+.textBox{
+
+}
+
+.home{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
+.alunos{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
+.prof{
+    padding: 30px;
+    padding-inline: 45px;
+    border: 3px solid  white; 
+}
+.escola{
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid  white; 
+}
+
+.nomeAluno{
+    margin-left: 330px;
+    font-size: 32px;
+}
+
+.informacoes{
+    padding-top: 80px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+/*Foto de Cauã*/
+.foto_mudar{
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
 
