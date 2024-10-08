@@ -21,25 +21,25 @@ header {
 }
 
 /*Caixa de navegação*/
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /*Texto*/
-nav>a{
+nav>a {
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 2em;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
 
-.linksBox{
+.linksBox {
     margin-left: 10px;
     width: 300px;
     display: flex;
@@ -48,12 +48,12 @@ a:hover{
     align-content: flex-start;
 }
 
-.nome{
+.nome {
     font-size: 25px;
     margin: 30px;
 }
 
-.botaoDosLinks{
+.botaoDosLinks {
     background-color: #1f6911;
     color: white;
     width: 300px;
@@ -64,28 +64,31 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
 }
 
-.home{
+.home {
     padding: 30px;
     padding-inline: 70px;
-    border: 3px solid  white; 
-}
-.alunos{
-    padding: 30px;
-    padding-inline: 70px;
-    border: 3px solid  white; 
-}
-.prof{
-    padding: 30px;
-    padding-inline: 45px;
-    border: 3px solid  white; 
-}
-.escola{
-    padding: 30px;
-    padding-inline: 70px;
-    border: 3px solid  white; 
+    border: 3px solid white;
 }
 
-.nomeAluno{
+.alunos {
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid white;
+}
+
+.prof {
+    padding: 30px;
+    padding-inline: 45px;
+    border: 3px solid white;
+}
+
+.escola {
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid white;
+}
+
+.nomeAluno {
     margin-left: 330px;
     font-size: 32px;
 }
@@ -93,7 +96,7 @@ a:hover{
 /* Rodapé */
 footer {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 130px;
     padding: 20px;
     background-color: #343a40;
     color: white;
@@ -104,7 +107,7 @@ footer {
     header h1 {
         font-size: 2em;
     }
-    
+
     header p {
         font-size: 1em;
     }

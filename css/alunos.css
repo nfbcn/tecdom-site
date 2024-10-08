@@ -21,74 +21,73 @@ header {
 }
 
 /*Caixa de navegação*/
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /*Texto*/
-nav>a{
+nav>a {
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 2em;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.imagemETexto{
+.imagemETexto {
     margin: 150px auto;
     width: 70%;
 }
 
-.textBox{
-
-}
-
-.home{
+.home {
     padding: 30px;
     padding-inline: 70px;
-    border: 3px solid  white; 
+    border: 3px solid white;
 }
-.alunos{
+
+.alunos {
     padding: 30px;
     padding-inline: 70px;
-    border: 3px solid  white; 
+    border: 3px solid white;
 }
-.prof{
+
+.prof {
     padding: 30px;
     padding-inline: 45px;
-    border: 3px solid  white; 
-}
-.escola{
-    padding: 30px;
-    padding-inline: 70px;
-    border: 3px solid  white; 
+    border: 3px solid white;
 }
 
-.nomeAluno{
+.escola {
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid white;
+}
+
+.nomeAluno {
     margin-left: 330px;
     font-size: 32px;
 }
 
-.informacoes{
+.informacoes {
     padding-top: 80px;
     font-size: 23px;
     text-align: justify;
 }
 
 /*Foto de Cauã*/
-.foto_mudar{
+.foto_mudar {
     max-width: 320px;
     float: left;
     border-radius: 10px;
@@ -138,7 +137,7 @@ footer {
     header h1 {
         font-size: 2em;
     }
-    
+
     header p {
         font-size: 1em;
     }

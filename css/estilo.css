@@ -21,53 +21,56 @@ header {
 }
 
 /*Caixa de navegação*/
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /*Texto*/
-nav>a{
+nav>a {
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 2em;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
 
-.home{
+.home {
     padding: 30px;
     padding-inline: 70px;
-    border: 3px solid  white; 
-}
-.alunos{
-    padding: 30px;
-    padding-inline: 70px;
-    border: 3px solid  white; 
-}
-.prof{
-    padding: 30px;
-    padding-inline: 45px;
-    border: 3px solid  white; 
-}
-.escola{
-    padding: 30px;
-    padding-inline: 70px;
-    border: 3px solid  white; 
+    border: 3px solid white;
 }
 
-.main{
+.alunos {
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid white;
+}
+
+.prof {
+    padding: 30px;
+    padding-inline: 45px;
+    border: 3px solid white;
+}
+
+.escola {
+    padding: 30px;
+    padding-inline: 70px;
+    border: 3px solid white;
+}
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.textBox{
+.textBox {
     font-size: 24px;
     margin: 150px auto;
     width: 50%;
@@ -114,7 +117,7 @@ footer {
     header h1 {
         font-size: 2em;
     }
-    
+
     header p {
         font-size: 1em;
     }
