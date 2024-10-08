@@ -51,8 +51,23 @@ a:hover{
     width: 70%;
 }
 
-.textBox{
+.nome{
+    justify-content: center;
+}
 
+.linksDosAlunos{
+    padding-left: 339x;
+    border: 1px solid #52a447;
+    background: #52a447;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.linksDosAlunos:hover{
+    background: white;
+    color: #52a447;
 }
 
 .home{
